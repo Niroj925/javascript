@@ -1,0 +1,55 @@
+  <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Document</title>
+    </head>
+     <header>
+           <h1>Welcome to practice tutorial of HTML</h1>
+           <p>by <b><i>NIROJ THAPA</i></b></p>
+       </header> 
+       <title>Niroj Calculator</title>
+         <link rel="stylesheet" href="calcu.css">
+     <body>
+      <h3>Current Time:</h3>
+      <section id="time">
+      </section>
+         <div class="container">
+                 <form name="keyboard">
+                   <h2>NIROJ CALCULATOR</h2>
+                   <input type="text" name="result"><br/>
+                  <input type="button" value="C" onclick="document.keyboard.result.value=''">
+                  <input type="button" value="CE" onclick="document.keyboard.result.value=
+                  (document.keyboard.result.value)/10-(((document.keyboard.result.value)%10)/10)">
+                  <input type="button" value="%" onclick="document.keyboard.result.value+='%'">
+                  <input type="button" value="/" onclick="document.keyboard.result.value+='/'">
+                   <br/>
+                  <input type="button" value="7" onclick="document.keyboard.result.value+=7">
+                  <input type="button" value="8" onclick="document.keyboard.result.value+=8">
+                  <input type="button" value="9" onclick="document.keyboard.result.value+=9">
+                  <input type="button" value="X" onclick="document.keyboard.result.value+='*'">
+                  <br/>
+                  <input type="button" value="4" onclick="document.keyboard.result.value+=4">
+                  <input type="button" value="5" onclick="document.keyboard.result.value+=5">
+                  <input type="button" value="6" onclick="document.keyboard.result.value+=6">
+                  <input type="button" value="-" onclick="document.keyboard.result.value+='-'">
+                   <br/>
+                  <input type="button" value="1" onclick="document.keyboard.result.value+=1">
+                  <input type="button" value="2" onclick="document.keyboard.result.value+=2">
+                  <input type="button" value="3" onclick="document.keyboard.result.value+=3">
+                  <input type="button" value="+" onclick="document.keyboard.result.value+='+'">
+                   <br/>
+                  <input style="width: 60px; margin-right: 20px;margin-left: 30px;" 
+                  type="button" value="0" onclick="document.keyboard.result.value+=0">
+                  <input style="width: 100px; margin-left: 20px;" type="button" value="=" 
+                  onclick="document.keyboard.result.value=eval( document.keyboard.result.value)">
+                 </form>
+         </div>
+         <script src="calcu.js"></script>
+      </body>
+      <nav>
+        <a href="pp.html">homepage</a>
+        </nav>
+       <footer>
+           <p>Copy Right &copy;2020 NIROJ THAPA</p>
+       </footer>   
+</html>

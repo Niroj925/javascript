@@ -1,0 +1,34 @@
+body
+{
+    background-color:lightsteelblue;
+
+}
+header
+{
+    margin: 10px;
+    border: 2px solid greenyellow;
+    background-color: grey;
+    text-align: center;
+    padding: 5px;
+}
+nav a
+{
+ background-color: mediumpurple;
+ float: left;
+ text-decoration: none;
+ padding: 20px;
+}
+nav a:hover
+{
+    color: white;
+    background-color: black;
+}
+footer
+{
+    clear: both;
+    padding: 10px;
+    margin: 0px;
+    background-color: cadetblue;
+    color: darkblue;
+    text-align: left;
+}

@@ -1,0 +1,100 @@
+body{
+	background-color: #f1f1f1;
+	margin: 0px;
+}
+header{
+	border: 1px solid black;
+background-color: pink;
+color: green;
+padding: 10px;
+text-align: center;
+font-family: "comic sans ms";
+}
+
+footer{
+    clear: both;
+    background-color: aqua;
+    color: brown;
+    margin: 0px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: small;
+    text-align: left;
+
+}
+nav{
+    margin:5px 0px 0px 0px;
+}
+nav a{
+    background-color: lightslategrey;
+    float: left;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: mediumorchid;
+    background-color: black;
+}
+body{
+    background-color:gray;
+     font-family:Arial, Helvetica, sans-serif;
+}
+div
+{
+    background-color: darkseagreen;
+    height: 400px;
+    width: 280px;
+    padding: 5px;
+    margin: 20px;
+    float: center;
+    border: 4px solid purple;
+}
+input[type=text]
+{
+    margin: 10px;
+    padding: 7px;
+    height: 40px;
+    width: 240px;
+    border: 3px solid lightslategray;
+    font-size: 35px;
+    font-weight: bold;
+}
+input[type=button]
+{
+    margin: 5px;
+    padding: 2px;
+    height: 34px;
+    width: 55px;
+    border:2px solid black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+h2{
+    border: 2px solid green;
+   background-color: grey;
+   text-align: center;
+}
+h3{
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+section{
+    border: 3px solid;
+    border-color: mediumaquamarine;
+    font-size: 50px;
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    color:black;
+    background-color:lightslategray;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.container
+{
+    overflow: hidden;
+    float:center;
+}
